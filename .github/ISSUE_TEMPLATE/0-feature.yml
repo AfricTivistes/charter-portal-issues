@@ -51,7 +51,7 @@ body:
         ...
     validations:
       required: false
-  - type: Textarea
+  - type: textarea
     attributes:
       label: More Information
       description: Add any other context here.
