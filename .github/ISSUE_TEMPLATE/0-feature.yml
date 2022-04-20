@@ -19,7 +19,7 @@ body:
           required: true
         - label: "This issue is not a question, feature request, RFC, or anything other than a bug report directly related to Gatsby."
           required: true
-- type: textarea
+  - type: textarea
     attributes:
       label: CC
       description: Add intended user next to **Hi**
