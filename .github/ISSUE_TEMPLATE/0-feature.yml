@@ -1,7 +1,7 @@
-name: "✨ New Feature"
+name: ✨ New Feature
 description: Suggest an idea
 labels: ["type: feature"]
-title: "✨"
+title: ✨
 body:
   - type: markdown
     attributes:
