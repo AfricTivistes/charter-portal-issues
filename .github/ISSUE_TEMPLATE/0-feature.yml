@@ -1,7 +1,6 @@
 name: ✨ New Feature
 description: Suggest an idea
 labels: ["type: feature"]
-title: ✨
 body:
   - type: markdown
     attributes:
