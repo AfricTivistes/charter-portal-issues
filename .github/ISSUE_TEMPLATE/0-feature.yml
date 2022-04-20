@@ -1,0 +1,67 @@
+name: "✨ New Feature"
+description: Suggest an idea
+labels: ["type: feature"]
+title: "✨"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Welcome 👋 
+
+        Thanks for taking the time to fill out this feature report.
+        Please fill out each section below. This info allows AfricTivistes maintainers to diagnose (and fix!) your issue as quickly as possible.
+
+  - type: checkboxes
+    attributes:
+      label: Preliminary Checks
+      description: Please make sure that you verify each checkbox and follow the instructions for them.
+      options:
+        - label: "This issue is not a duplicate. Before opening a new issue, please search existing issues: https://github.com/gatsbyjs/gatsby/issues"
+          required: true
+        - label: "This issue is not a question, feature request, RFC, or anything other than a bug report directly related to Gatsby."
+          required: true
+- type: textarea
+    attributes:
+      label: CC
+      description: Add intended user next to **Hi**
+      value: |
+        Hi
+        
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Pain
+      description: Explain the pain you are experiencing
+      placeholder: Be as precise as you can.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Suggested Solution
+      description: Describe the solution you'd like
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Tasks
+      description: Add GitHub tasks
+      value: |
+        - [ ] ...
+        - [ ] ...
+        ...
+    validations:
+      required: false
+  - type: Textarea
+    attributes:
+      label: More Information
+      description: Add any other context here.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: Feel free to share screenshots, videos, or data.
+    validations:
+      required: false
